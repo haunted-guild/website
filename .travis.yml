@@ -5,9 +5,7 @@ node_js:
   - 14
 deploy:
   provider: script
-  script: |
-    yarn install
-    yarn run deploy
+  script: yarn install && yarn run deploy
   skip_cleanup: true
   on:
     branch: main
