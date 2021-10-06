@@ -25,6 +25,7 @@
   ],
   "scripts": {
     "build": "gatsby build",
+    "test": "exit 0",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "gatsby develop",
