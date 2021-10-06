@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Haunted`,
     description: `Webseite der World of Warcraft Gilde 'Haunted' auf EU-Thrall.`,
-    author: `@gatsbyjs`,
+    author: `@michael-herwig`,
     siteUrl: `https://haunted-guild.de/`,
   },
   plugins: [
@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `WoW Horde Gilde 'Haunted' auf EU-Thrall`,
+        short_name: `Haunted | EU-Thrall`,
         start_url: `/`,
         background_color: `#663399`,
         display: `minimal-ui`,
