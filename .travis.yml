@@ -1,8 +1,9 @@
 language: node_js
-before_script:
-  - npm install -g gatsby-cli yarn
+cache: npm
 node_js:
   - 14
+before_script:
+  - npm install -g gatsby-cli yarn
 deploy:
   provider: script
   script: yarn install && yarn run deploy
