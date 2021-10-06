@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkhaunted_guild=self.webpackChunkhaunted_guild||[]).push([[114],{9903:function(e,t,u){u.r(t);var n=u(7294),l=u(4938),a=u(9470);t.default=function(){return n.createElement(l.Z,null,n.createElement(a.Z,{title:"News"}))}}}]);
+//# sourceMappingURL=component---src-pages-news-tsx-835daff812a51948d714.js.map

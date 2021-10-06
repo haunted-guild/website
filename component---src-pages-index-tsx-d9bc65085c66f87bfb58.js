@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkhaunted_guild=self.webpackChunkhaunted_guild||[]).push([[691],{6738:function(e,t,u){u.r(t);var n=u(7294),l=u(4938),a=u(9470);t.default=function(){return n.createElement(l.Z,null,n.createElement(a.Z,{title:"Home"}))}}}]);
+//# sourceMappingURL=component---src-pages-index-tsx-d9bc65085c66f87bfb58.js.map
