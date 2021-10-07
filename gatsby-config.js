@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Haunted`,
+    title: `Haunted Guild`,
     description: `Webseite der World of Warcraft Gilde 'Haunted' auf EU-Thrall.`,
     author: `@michael-herwig`,
     siteUrl: `https://haunted-guild.de/`,
@@ -28,5 +28,13 @@ module.exports = {
         icon: `src/images/haunted-logo.png`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `markdown-pages`,
+        path: `${__dirname}/src/posts`,
+      },
+    },
+    `gatsby-transformer-remark`,
   ],
 }

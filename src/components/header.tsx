@@ -8,7 +8,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const Header = ({ siteTitle }) => (
   <header>
-    <Navbar bg="dark" variant="dark" fixed="top">
+    <Navbar bg="dark" variant="dark" fixed="top" className="navbar-sticky-top">
       <Container>
         <Navbar.Brand href="/">
           <StaticImage
@@ -57,7 +57,10 @@ const Header = ({ siteTitle }) => (
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="https://www.facebook.com/Haunted-104616588663255/" target="_blank">
+            <Nav.Link
+              href="https://www.facebook.com/Haunted-104616588663255/"
+              target="_blank"
+            >
               <FaFacebook />
             </Nav.Link>
           </Nav.Item>
